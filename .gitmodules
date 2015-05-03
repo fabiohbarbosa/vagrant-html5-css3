@@ -7,3 +7,6 @@
 [submodule "puppet/modules/wget"]
 	path = puppet/modules/wget
 	url = git://github.com/maestrodev/puppet-wget.git
+[submodule "src/html5-css3"]
+	path = src/html5-css3
+	url = git@github.com:fabiohbarbosa/html5-css3.git
