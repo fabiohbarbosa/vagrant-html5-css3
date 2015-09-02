@@ -13,7 +13,7 @@ Vagrant.configure("2") do |config|
 
     config.vm.provider :virtualbox do |vb|
       vb.customize ["modifyvm", :id,
-                    "--name", "html5css3",
+                    "--name", "html5_css3",
                     "--memory", "512",
                     "--natdnshostresolver1", "on"]
     end
